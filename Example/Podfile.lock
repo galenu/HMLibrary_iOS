@@ -3,75 +3,75 @@ PODS:
   - CocoaLumberjack/Core (3.7.4)
   - CocoaLumberjack/Swift (3.7.4):
     - CocoaLumberjack/Core
-  - HMLibrary_iOS (0.0.5):
+  - HMLibrary_iOS (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Component (= 0.0.5)
-    - HMLibrary_iOS/Core (= 0.0.5)
+    - HMLibrary_iOS/Component (= 0.0.6)
+    - HMLibrary_iOS/Core (= 0.0.6)
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Component (0.0.5):
+  - HMLibrary_iOS/Component (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Component/HMLog (= 0.0.5)
-    - HMLibrary_iOS/Component/HMNavigation (= 0.0.5)
-    - HMLibrary_iOS/Component/HMPopup (= 0.0.5)
-    - HMLibrary_iOS/Component/NetworkChange (= 0.0.5)
+    - HMLibrary_iOS/Component/HMLog (= 0.0.6)
+    - HMLibrary_iOS/Component/HMNavigation (= 0.0.6)
+    - HMLibrary_iOS/Component/HMPopup (= 0.0.6)
+    - HMLibrary_iOS/Component/NetworkChange (= 0.0.6)
     - HMLibrary_iOS/Core
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Component/HMLog (0.0.5):
-    - Alamofire
-    - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Core
-    - RxCocoa
-    - RxSwift
-    - SnapKit
-  - HMLibrary_iOS/Component/HMNavigation (0.0.5):
+  - HMLibrary_iOS/Component/HMLog (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - HMLibrary_iOS/Core
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Component/HMPopup (0.0.5):
+  - HMLibrary_iOS/Component/HMNavigation (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - HMLibrary_iOS/Core
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Component/NetworkChange (0.0.5):
+  - HMLibrary_iOS/Component/HMPopup (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - HMLibrary_iOS/Core
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Core (0.0.5):
+  - HMLibrary_iOS/Component/NetworkChange (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Core/Extension (= 0.0.5)
-    - HMLibrary_iOS/Core/Protocol (= 0.0.5)
-    - HMLibrary_iOS/Core/Util (= 0.0.5)
+    - HMLibrary_iOS/Core
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Core/Extension (0.0.5):
+  - HMLibrary_iOS/Core (0.0.6):
+    - Alamofire
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core/Extension (= 0.0.6)
+    - HMLibrary_iOS/Core/Protocol (= 0.0.6)
+    - HMLibrary_iOS/Core/Util (= 0.0.6)
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+  - HMLibrary_iOS/Core/Extension (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Core/Protocol (0.0.5):
+  - HMLibrary_iOS/Core/Protocol (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Core/Util (0.0.5):
+  - HMLibrary_iOS/Core/Util (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
@@ -104,7 +104,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
-  HMLibrary_iOS: b7bdaef3031b8d5b66362acd14891f91bf3885eb
+  HMLibrary_iOS: 6ab537cc110d276830e1cb408eec996ff88d400e
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632

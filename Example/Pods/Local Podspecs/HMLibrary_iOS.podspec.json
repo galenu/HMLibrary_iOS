@@ -1,6 +1,6 @@
 {
   "name": "HMLibrary_iOS",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "summary": "iOS开发基础组件库HMLibrary_iOS.",
   "description": "iOS开发基础组件库HMLibrary_iOS.",
   "homepage": "https://github.com/galenu/HMLibrary_iOS",
@@ -13,11 +13,14 @@
   },
   "source": {
     "git": "https://github.com/galenu/HMLibrary_iOS.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "11.0"
   },
+  "swift_versions": [
+    "5.0"
+  ],
   "frameworks": "UIKit",
   "dependencies": {
     "RxSwift": [
@@ -36,7 +39,6 @@
 
     ]
   },
-  "swift_versions": "5.0",
   "subspecs": [
     {
       "name": "Core",

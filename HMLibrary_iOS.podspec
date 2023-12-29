@@ -29,6 +29,9 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
+  
+  # 指定Swift语言版本
+  s.swift_version = ['5.0']
 
   # s.source_files = 'HMLibrary_iOS/Classes/**/*'
   
@@ -95,8 +98,5 @@ Pod::Spec.new do |s|
   s.dependency 'CocoaLumberjack/Swift'
   s.dependency 'SnapKit'
   s.dependency 'Alamofire'
-  
-  # 指定Swift语言版本
-  s.swift_version = '5.0'
   
 end
