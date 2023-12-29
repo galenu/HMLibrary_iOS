@@ -1,0 +1,6 @@
+framework module HMLibrary_iOS {
+  umbrella header "HMLibrary_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
