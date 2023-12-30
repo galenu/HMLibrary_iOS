@@ -56,15 +56,15 @@ Pod::Spec.new do |s|
   end
   
   # 1级文件夹Component
-  s.subspec 'Component' do |ss|
+  s.subspec 'Component' do |s1|
     
     # 依赖Core
-    ss.dependency 'HMLibrary_iOS/Core'
+    s1.dependency 'HMLibrary_iOS/Core'
     
-    ss.source_files = 'HMLibrary_iOS/Classes/Component/*.swift'
+    s1.source_files = 'HMLibrary_iOS/Classes/Component/*.swift'
     
     # 2级文件夹HMNavigation
-    ss.subspec 'HMNavigation' do |s2|
+    s1.subspec 'HMNavigation' do |s2|
       s2.source_files = 'HMLibrary_iOS/Classes/Component/HMNavigation/**/*'
     end
     
@@ -97,6 +97,8 @@ Pod::Spec.new do |s|
   
   # 1级文件夹Route
   s.subspec 'Route' do |s1|
+    # 依赖Core
+    s1.dependency 'HMLibrary_iOS/Component/HMNavigation'
     s1.source_files = 'HMLibrary_iOS/Classes/Route/**/*'
   end
   
