@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/galenu/HMLibrary_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'galenu' => 'qiang.gui@harman.com' }
+  s.author           = { 'galenu' => '250167616@qq.com' }
   s.source           = { :git => 'https://github.com/galenu/HMLibrary_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -63,11 +63,6 @@ Pod::Spec.new do |s|
     
     ss.source_files = 'HMLibrary_iOS/Classes/Component/*.swift'
     
-    # 2级文件夹HMLog
-    ss.subspec 'HMLog' do |s2|
-      s2.source_files = 'HMLibrary_iOS/Classes/Component/HMLog/**/*'
-    end
-    
     # 2级文件夹HMNavigation
     ss.subspec 'HMNavigation' do |s2|
       s2.source_files = 'HMLibrary_iOS/Classes/Component/HMNavigation/**/*'
@@ -85,6 +80,21 @@ Pod::Spec.new do |s|
     
   end
   
+  # 1级文件夹HMLog
+  s.subspec 'HMLog' do |s1|
+    s1.source_files = 'HMLibrary_iOS/Classes/HMLog/**/*'
+  end
+  
+  # 1级文件夹Route
+  s.subspec 'Route' do |s1|
+    s1.source_files = 'HMLibrary_iOS/Classes/Route/**/*'
+  end
+  
+  # 1级文件夹Theme
+  s.subspec 'Theme' do |s1|
+    s1.source_files = 'HMLibrary_iOS/Classes/Theme/**/*'
+  end
+  
   # s.resource_bundles = {
   #   'HMLibrary_iOS' => ['HMLibrary_iOS/Assets/*.png']
   # }
@@ -95,8 +105,9 @@ Pod::Spec.new do |s|
   # 依赖的第三方库
   s.dependency 'RxSwift'
   s.dependency 'RxCocoa'
-  s.dependency 'CocoaLumberjack/Swift'
   s.dependency 'SnapKit'
   s.dependency 'Alamofire'
+  s.dependency 'CocoaLumberjack/Swift'
+  s.dependency 'URLNavigator'
   
 end

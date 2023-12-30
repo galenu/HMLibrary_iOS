@@ -8,13 +8,16 @@ PODS:
     - CocoaLumberjack/Swift
     - HMLibrary_iOS/Component (= 0.0.6)
     - HMLibrary_iOS/Core (= 0.0.6)
+    - HMLibrary_iOS/HMLog (= 0.0.6)
+    - HMLibrary_iOS/Route (= 0.0.6)
+    - HMLibrary_iOS/Theme (= 0.0.6)
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Component (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Component/HMLog (= 0.0.6)
     - HMLibrary_iOS/Component/HMNavigation (= 0.0.6)
     - HMLibrary_iOS/Component/HMPopup (= 0.0.6)
     - HMLibrary_iOS/Component/NetworkChange (= 0.0.6)
@@ -22,13 +25,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
-  - HMLibrary_iOS/Component/HMLog (0.0.6):
-    - Alamofire
-    - CocoaLumberjack/Swift
-    - HMLibrary_iOS/Core
-    - RxCocoa
-    - RxSwift
-    - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Component/HMNavigation (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
@@ -36,6 +33,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Component/HMPopup (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
@@ -43,6 +41,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Component/NetworkChange (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
@@ -50,6 +49,7 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Core (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
@@ -59,24 +59,49 @@ PODS:
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Core/Extension (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Core/Protocol (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
   - HMLibrary_iOS/Core/Util (0.0.6):
     - Alamofire
     - CocoaLumberjack/Swift
     - RxCocoa
     - RxSwift
     - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMLog (0.0.6):
+    - Alamofire
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Route (0.0.6):
+    - Alamofire
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Theme (0.0.6):
+    - Alamofire
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
   - RxCocoa (6.6.0):
     - RxRelay (= 6.6.0)
     - RxSwift (= 6.6.0)
@@ -84,6 +109,7 @@ PODS:
     - RxSwift (= 6.6.0)
   - RxSwift (6.6.0)
   - SnapKit (5.6.0)
+  - URLNavigator (2.5.1)
 
 DEPENDENCIES:
   - HMLibrary_iOS (from `../`)
@@ -96,6 +122,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SnapKit
+    - URLNavigator
 
 EXTERNAL SOURCES:
   HMLibrary_iOS:
@@ -104,11 +131,12 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
-  HMLibrary_iOS: 6ab537cc110d276830e1cb408eec996ff88d400e
+  HMLibrary_iOS: 3b614a5ccc751e70c9e4ed91deb800a567b81bb5
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  URLNavigator: e9c0426ba6e6ac57f34d018bbf3df840797f984d
 
 PODFILE CHECKSUM: 2ed7ac14c845ee31aa00cf9fefa946f4d3ccfd2b
 

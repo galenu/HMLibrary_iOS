@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "authors": {
-    "galenu": "qiang.gui@harman.com"
+    "galenu": "250167616@qq.com"
   },
   "source": {
     "git": "https://github.com/galenu/HMLibrary_iOS.git",
@@ -29,13 +29,16 @@
     "RxCocoa": [
 
     ],
-    "CocoaLumberjack/Swift": [
-
-    ],
     "SnapKit": [
 
     ],
     "Alamofire": [
+
+    ],
+    "CocoaLumberjack/Swift": [
+
+    ],
+    "URLNavigator": [
 
     ]
   },
@@ -67,10 +70,6 @@
       "source_files": "HMLibrary_iOS/Classes/Component/*.swift",
       "subspecs": [
         {
-          "name": "HMLog",
-          "source_files": "HMLibrary_iOS/Classes/Component/HMLog/**/*"
-        },
-        {
           "name": "HMNavigation",
           "source_files": "HMLibrary_iOS/Classes/Component/HMNavigation/**/*"
         },
@@ -83,6 +82,18 @@
           "source_files": "HMLibrary_iOS/Classes/Component/NetworkChange/**/*"
         }
       ]
+    },
+    {
+      "name": "HMLog",
+      "source_files": "HMLibrary_iOS/Classes/HMLog/**/*"
+    },
+    {
+      "name": "Route",
+      "source_files": "HMLibrary_iOS/Classes/Route/**/*"
+    },
+    {
+      "name": "Theme",
+      "source_files": "HMLibrary_iOS/Classes/Theme/**/*"
     }
   ],
   "swift_version": "5.0"

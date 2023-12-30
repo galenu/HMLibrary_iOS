@@ -13,6 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		85CA1E892B4063D500AF1899 /* LightModuleRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA1E882B4063D500AF1899 /* LightModuleRoute.swift */; };
+		85CA1E8B2B4064F200AF1899 /* LightInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA1E8A2B4064F200AF1899 /* LightInfoVC.swift */; };
 		CB0A7265ADF394D3501F1384 /* Pods_HMLibrary_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1636BB23FB5809D60CD049C /* Pods_HMLibrary_iOS_Example.framework */; };
 		CDD940CDDDEE53C95E1CE1CC /* Pods_HMLibrary_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C792BDD473B884F4157B36 /* Pods_HMLibrary_iOS_Tests.framework */; };
 /* End PBXBuildFile section */
@@ -42,6 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63E9FCDDB138D2118DD05977 /* Pods-HMLibrary_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLibrary_iOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HMLibrary_iOS_Tests/Pods-HMLibrary_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		65C5898428F06706F9BD36D2 /* Pods-HMLibrary_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMLibrary_iOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-HMLibrary_iOS_Tests/Pods-HMLibrary_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		85CA1E882B4063D500AF1899 /* LightModuleRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightModuleRoute.swift; sourceTree = "<group>"; };
+		85CA1E8A2B4064F200AF1899 /* LightInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightInfoVC.swift; sourceTree = "<group>"; };
 		94E9F42DF625B171C77C0B4C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B1636BB23FB5809D60CD049C /* Pods_HMLibrary_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HMLibrary_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D254B01215E80CC959FD477D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				85CA1E882B4063D500AF1899 /* LightModuleRoute.swift */,
+				85CA1E8A2B4064F200AF1899 /* LightInfoVC.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -276,6 +282,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -286,6 +293,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -344,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				85CA1E8B2B4064F200AF1899 /* LightInfoVC.swift in Sources */,
+				85CA1E892B4063D500AF1899 /* LightModuleRoute.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

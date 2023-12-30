@@ -17,11 +17,17 @@ class ViewController: UIViewController {
         
         HMLog.info("infoinfoinfo测试log日志文件21111111111111111")
         HMLog.error("errorerrorerrorerrorerror测试log日志文件errorerrorerrorerror")
+        
+        LightModuleRoute.register(navigator: HMRoute.navigator)
     }
 
     @IBAction func logBtnClick(_ sender: Any) {
         
         HMLog.verbose("logBtnClick测试log日志文件logBtnClick")
+    }
+    
+    @IBAction func lightInfoClick(_ sender: Any) {
+        HMRoute.push(LightModuleRoute.lightControl(deviceId: "1234"))
     }
     
 }
