@@ -25,10 +25,6 @@ public protocol HMRouteable {
 
 extension HMRouteable {
     
-    var urlPattern: URLPattern {
-        return self.baseUrl + self.path
-    }
-    
     internal func toURLConvertible() -> String {
         let encodeParamters = self.encodeParameters()
         if !encodeParamters.isEmpty {

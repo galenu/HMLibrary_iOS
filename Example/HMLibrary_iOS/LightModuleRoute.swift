@@ -11,7 +11,7 @@ import HMLibrary_iOS
 import URLNavigator
 
 /// partybox灯模块路由
-enum LightModuleRoute: HMRouteable {
+public enum LightModuleRoute: HMRouteable {
     
     /// light控制
     case lightControl(deviceId: String)
@@ -22,11 +22,11 @@ enum LightModuleRoute: HMRouteable {
 
 extension LightModuleRoute {
     
-    var baseUrl: String {
+    public var baseUrl: String {
         return "app://lightModule/"
     }
     
-    var path: String {
+    public var path: String {
         switch self {
         case .lightControl:
             return "lightControl"
@@ -35,7 +35,7 @@ extension LightModuleRoute {
         }
     }
     
-    var queryParameters: [String : String] {
+    public var queryParameters: [String : String] {
         switch self {
         case let .lightControl(deviceId):
             return ["deviceId" : deviceId]
@@ -45,7 +45,7 @@ extension LightModuleRoute {
         }
     }
     
-    static func register(navigator: URLNavigator.Navigator) {
+    public static func register(navigator: URLNavigator.Navigator) {
         navigator.register(routeable: LightModuleRoute.lightControl(deviceId: "")) { url, values, context in
             let params = url.queryParameters
             if let deviceId = params["deviceId"] {
