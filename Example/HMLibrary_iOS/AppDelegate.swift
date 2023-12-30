@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        // 配置日志
         HMLog.configLog()
+               
+        // 配置ttf字体
+        TTFFont.register()
+        
+        // 注册模块路由
+        LightModuleRoute.register(navigator: HMRoute.navigator)
+        
         return true
     }
 

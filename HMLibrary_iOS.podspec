@@ -80,9 +80,19 @@ Pod::Spec.new do |s|
     
   end
   
+  # 1级文件夹HMFont
+  s.subspec 'HMFont' do |s1|
+    s1.source_files = 'HMLibrary_iOS/Classes/HMFont/**/*'
+  end
+  
   # 1级文件夹HMLog
   s.subspec 'HMLog' do |s1|
     s1.source_files = 'HMLibrary_iOS/Classes/HMLog/**/*'
+  end
+  
+  # 1级文件夹I18n
+  s.subspec 'I18n' do |s1|
+    s1.source_files = 'HMLibrary_iOS/Classes/I18n/**/*'
   end
   
   # 1级文件夹Route
@@ -90,14 +100,9 @@ Pod::Spec.new do |s|
     s1.source_files = 'HMLibrary_iOS/Classes/Route/**/*'
   end
   
-  # 1级文件夹Theme
-  s.subspec 'Theme' do |s1|
-    s1.source_files = 'HMLibrary_iOS/Classes/Theme/**/*'
-  end
-  
-  # s.resource_bundles = {
-  #   'HMLibrary_iOS' => ['HMLibrary_iOS/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'HMLibrary_iOS' => ['HMLibrary_iOS/Assets/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

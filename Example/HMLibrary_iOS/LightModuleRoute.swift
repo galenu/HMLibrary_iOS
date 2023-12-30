@@ -49,7 +49,7 @@ extension LightModuleRoute {
         navigator.register(routeable: LightModuleRoute.lightControl(deviceId: "")) { url, values, context in
             let params = url.queryParameters
             if let deviceId = params["deviceId"] {
-                return LightInfoVC(deviceId: deviceId)
+                return RouteTestVC(deviceId: deviceId)
             }
             return nil
         }

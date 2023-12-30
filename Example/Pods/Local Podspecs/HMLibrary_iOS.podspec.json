@@ -1,6 +1,6 @@
 {
   "name": "HMLibrary_iOS",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "iOS开发基础组件库HMLibrary_iOS.",
   "description": "iOS开发基础组件库HMLibrary_iOS.",
   "homepage": "https://github.com/galenu/HMLibrary_iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/galenu/HMLibrary_iOS.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "11.0"
@@ -21,6 +21,11 @@
   "swift_versions": [
     "5.0"
   ],
+  "resource_bundles": {
+    "HMLibrary_iOS": [
+      "HMLibrary_iOS/Assets/*"
+    ]
+  },
   "frameworks": "UIKit",
   "dependencies": {
     "RxSwift": [
@@ -84,16 +89,20 @@
       ]
     },
     {
+      "name": "HMFont",
+      "source_files": "HMLibrary_iOS/Classes/HMFont/**/*"
+    },
+    {
       "name": "HMLog",
       "source_files": "HMLibrary_iOS/Classes/HMLog/**/*"
     },
     {
-      "name": "Route",
-      "source_files": "HMLibrary_iOS/Classes/Route/**/*"
+      "name": "I18n",
+      "source_files": "HMLibrary_iOS/Classes/I18n/**/*"
     },
     {
-      "name": "Theme",
-      "source_files": "HMLibrary_iOS/Classes/Theme/**/*"
+      "name": "Route",
+      "source_files": "HMLibrary_iOS/Classes/Route/**/*"
     }
   ],
   "swift_version": "5.0"

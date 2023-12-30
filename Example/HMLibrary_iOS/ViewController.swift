@@ -13,17 +13,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        HMLog.debug("测试log日志文件")
         
-        HMLog.info("infoinfoinfo测试log日志文件21111111111111111")
-        HMLog.error("errorerrorerrorerrorerror测试log日志文件errorerrorerrorerror")
         
-        LightModuleRoute.register(navigator: HMRoute.navigator)
     }
 
     @IBAction func logBtnClick(_ sender: Any) {
-        
-        HMLog.verbose("logBtnClick测试log日志文件logBtnClick")
+        HMLog.debug("logBtnClick测试log日志文件logBtnClick")
     }
     
     @IBAction func lightInfoClick(_ sender: Any) {
