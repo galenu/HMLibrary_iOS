@@ -102,6 +102,11 @@
     },
     {
       "name": "Route",
+      "dependencies": {
+        "HMLibrary_iOS/Component/HMNavigation": [
+
+        ]
+      },
       "source_files": "HMLibrary_iOS/Classes/Route/**/*"
     }
   ],

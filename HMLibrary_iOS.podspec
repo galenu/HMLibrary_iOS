@@ -69,12 +69,12 @@ Pod::Spec.new do |s|
     end
     
     # 2级文件夹HMPopup
-    ss.subspec 'HMPopup' do |s2|
+    s1.subspec 'HMPopup' do |s2|
       s2.source_files = 'HMLibrary_iOS/Classes/Component/HMPopup/**/*'
     end
     
     # 2级文件夹NetworkChange
-    ss.subspec 'NetworkChange' do |s2|
+    s1.subspec 'NetworkChange' do |s2|
       s2.source_files = 'HMLibrary_iOS/Classes/Component/NetworkChange/**/*'
     end
     

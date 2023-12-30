@@ -106,6 +106,7 @@ PODS:
   - HMLibrary_iOS/Route (0.0.7):
     - Alamofire
     - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Component/HMNavigation
     - RxCocoa
     - RxSwift
     - SnapKit
@@ -139,7 +140,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
   CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
-  HMLibrary_iOS: 103887c2f2e5466beb28ca6897c79bbd3819dea6
+  HMLibrary_iOS: 4ce0171a5faccd9a87712a2a29ab0019938c0b89
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
