@@ -1,6 +1,6 @@
 {
   "name": "HMLibrary_iOS",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "summary": "iOS开发基础组件库HMLibrary_iOS.",
   "description": "iOS开发基础组件库HMLibrary_iOS.",
   "homepage": "https://github.com/galenu/HMLibrary_iOS",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/galenu/HMLibrary_iOS.git",
-    "tag": "0.0.7"
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "11.0"
