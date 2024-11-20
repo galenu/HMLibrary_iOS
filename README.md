@@ -561,7 +561,7 @@ pod 'HMLibrary_iOS'
 
 ## Author
 
-galen, Qiang.Gui@harman.com
+galenu, 250167616@qq.com
 
 ## License
 
