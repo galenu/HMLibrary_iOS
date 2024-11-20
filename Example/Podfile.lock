@@ -1,0 +1,223 @@
+PODS:
+  - Alamofire (5.8.1)
+  - Cache (6.0.0)
+  - CocoaLumberjack/Core (3.8.2)
+  - CocoaLumberjack/Swift (3.8.2):
+    - CocoaLumberjack/Core
+  - HMLibrary_iOS (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Component (= 1.0.0)
+    - HMLibrary_iOS/Core (= 1.0.0)
+    - HMLibrary_iOS/EmptyDataSet (= 1.0.0)
+    - HMLibrary_iOS/HMCache (= 1.0.0)
+    - HMLibrary_iOS/HMFont (= 1.0.0)
+    - HMLibrary_iOS/HMLog (= 1.0.0)
+    - HMLibrary_iOS/HMNavigation (= 1.0.0)
+    - HMLibrary_iOS/HMPopup (= 1.0.0)
+    - HMLibrary_iOS/HMRoute (= 1.0.0)
+    - HMLibrary_iOS/HMTagView (= 1.0.0)
+    - HMLibrary_iOS/HUD (= 1.0.0)
+    - HMLibrary_iOS/I18n (= 1.0.0)
+    - HMLibrary_iOS/NetworkChange (= 1.0.0)
+    - HMLibrary_iOS/Validate (= 1.0.0)
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Component (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Core (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core/Extension (= 1.0.0)
+    - "HMLibrary_iOS/Core/HM+Extension (= 1.0.0)"
+    - HMLibrary_iOS/Core/Protocol (= 1.0.0)
+    - HMLibrary_iOS/Core/Util (= 1.0.0)
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Core/Extension (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - "HMLibrary_iOS/Core/HM+Extension (1.0.0)":
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core/Extension
+    - HMLibrary_iOS/Core/Protocol
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Core/Protocol (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Core/Util (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/EmptyDataSet (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMCache (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMFont (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMLog (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMNavigation (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/Core
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMPopup (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMRoute (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - HMLibrary_iOS/HMNavigation
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HMTagView (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/HUD (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/I18n (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/NetworkChange (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - HMLibrary_iOS/Validate (1.0.0):
+    - Alamofire
+    - Cache
+    - CocoaLumberjack/Swift
+    - RxCocoa
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+  - SnapKit (5.6.0)
+  - URLNavigator (2.5.1)
+
+DEPENDENCIES:
+  - HMLibrary_iOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cache
+    - CocoaLumberjack
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - URLNavigator
+
+EXTERNAL SOURCES:
+  HMLibrary_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ca42e259043ee0dc5c0cdd76c4bc568b8e42af7
+  Cache: 4ca7e00363fca5455f26534e5607634c820ffc2d
+  CocoaLumberjack: f8d89a516e7710fdb2e9b8f1560b16ec6040eef0
+  HMLibrary_iOS: f6163bb2d8d0cb38691287c6c4f8efff4743e281
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  URLNavigator: e9c0426ba6e6ac57f34d018bbf3df840797f984d
+
+PODFILE CHECKSUM: 2ed7ac14c845ee31aa00cf9fefa946f4d3ccfd2b
+
+COCOAPODS: 1.14.3
